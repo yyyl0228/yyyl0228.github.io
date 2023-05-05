@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Luckiest Guy";
 }
 body {
   background-color: #39FF14;
@@ -10,7 +10,7 @@ body {
 .container {
   background-color: #ffffff;
   width: 90%;
-  max-width: 31.25em;
+  max-width: 80em;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -19,34 +19,34 @@ body {
   border-radius: 0.5em;
 }
 .container h3 {
-  font-size: 1.2em;
-  color: #23234c;
+  font-size: 2em;
+  color: #0f2310;
   text-align: center;
   font-weight: 500;
   line-height: 1.8em;
 }
 .container #submit-btn {
   font-size: 1.2em;
-  font-weight: 500;
+  font-weight: 700;
   display: block;
   margin: 0 auto;
-  background-color: #f4c531;
+  background-color: #0f2310;
   border-radius: 0.3em;
   border: none;
   outline: none;
   cursor: pointer;
-  color: #23234c;
+  color: #ffffff;
   padding: 0.6em 2em;
 }
 #error-msg {
   text-align: center;
   margin-top: 1em;
-  background-color: #ffdde0;
+  background-color: #FFFF00;
   color: #d62f2f;
   padding: 0.2em 0;
 }
 .container #question {
-  background-color: #eeedf1;
+  background-color: #90EE90;
   font-size: 2em;
   font-weight: 600;
   color: #23234c;
@@ -64,13 +64,13 @@ body {
   color: #23234c;
   text-align: center;
   padding: 0 0.2em;
-  border: none;
-  background-color: transparent;
+  border: 1;
+  background-color: #AFE1AF;
   border-bottom: 0.12em solid #23234c;
   margin: 0 0.25em;
 }
 .container input:focus {
-  border-color: #f4c531;
+  border-color: #228B22;
   outline: none;
 }
 
@@ -88,7 +88,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #f4c531;
+  background-color: #4caf50;
   height: 100%;
   width: 100%;
   top: 0;
@@ -96,10 +96,10 @@ body {
 #start-btn {
   font-size: 1.2em;
   font-weight: 500;
-  background-color: #ffffff;
-  color: #23234c;
-  border: none;
-  outline: none;
+  background-color: #0f2310;
+  color: #ffffff;
+  border: 1;
+  outline: 2
   cursor: pointer;
   padding: 0.8em 1.8em;
   border-radius: 0.3em;

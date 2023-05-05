@@ -77,7 +77,7 @@ startBtn.addEventListener("click", () => {
   answerValue = "";
   errorMessage.innerHTML = "";
   errorMessage.classList.add("hide");
-  
+
   controls.classList.add("hide");
   startBtn.classList.add("hide");
   questionGenerator();
