@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+.btn {
+  color: #fff;
+  position: absolute;
+  left: 650px;
+  top: 500px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 40px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+  background-size: 152% 100%;
+  background: #fd4766;
+  border: 2px solid #fd4766;
+}
+.btn:hover {
+  background: transparent;
+  border-color: #fd4766;
+  color: #fd4766;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 90px;
+  text-transform: inherit;
+  width: 70%;
+  position: absolute;
+  left: 520px;
+  top: 250px;
+}
+
+.content h2 {
+position: absolute;
+top: 50%;
+transform: translate(calc(50vw - 50%), -55%);
+font-size: 4em;
+font-family: arial;
+}
+h2:nth-child(1) {
+color: transparent;
+-webkit-text-stroke: 1px rgb(135, 206, 235, 0.35);
+}
+h2:nth-child(2) {
+color: skyblue;
+animation: water 6s ease-in-out infinite;
+}
+@keyframes water {
+0%,
+	100% {
+clip-path: polygon(0 47%, 8% 36%, 19% 27%, 31% 29%, 42% 45%, 48% 66%, 58% 79%, 76% 79%, 89% 75%, 100% 63%, 100% 100%, 0 100%);
+	}
+50% {
+clip-path: polygon(0 64%, 8% 76%, 19% 80%, 31% 78%, 42% 68%, 48% 46%, 58% 30%, 76% 28%, 89% 37%, 100% 48%, 100% 100%, 0 100%);
+	}
+}
+@media screen and (max-width: 700px) {
+h2 {
+font-size: 5em;
+	}
+}
+@media screen and (max-width: 600px) {
+h2 {
+font-size: 3em;
+	}
+}
